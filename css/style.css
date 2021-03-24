@@ -1,1 +1,9 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
