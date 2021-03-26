@@ -5,6 +5,12 @@
     text-align: center;
     font-size: 1.5em;
     margin: 1em 0;
+    .fa-comment-alt{
+      background-color: #007FC3;
+      color: #fff;
+      padding: 8px;
+      border-radius: 50px;
+    }
   }
   .section1_cards{
     display: grid;
@@ -20,29 +26,79 @@
         padding: 1em;
         font-size: 1.4em;
         font-weight: 600;
+        position: relative;
         .latest_news{
-  
+          background-color: #898989;
+          position: absolute;
+          font-size: 0.8em;
+          top: -25px;
+          padding: 0.3em;
+          color: #fff;
         }
       }
       .card_time{
         padding: 1em;
         border-top: 1px solid #E3E3E3;
+        color: #898989;
       }
     }
   }
   .section1_button{
-
+    text-align: center;
+    button{
+      background-color: #18307F;
+      color: #fff;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 3px;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 1.1em;
+      box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.5);
+      .angle_right{
+        font-size: 30px;
+        color: #fff;
+      }
+    }
   }
 }
 
 .section2{
+  background-color: #F7F7F7;
   .section2_header{
-
+    text-align: center;
+    font-size: 1.3em;
+    margin: 1em 0;
+    font-weight: 700;
+    .fa-info-circle{
+      background-color: #007FC3;
+      color: #fff;
+      padding: 8px;
+      border-radius: 50px;
+    }
+    
   }
 
   .section2_cards{
+    position: relative;
+    
+    .section2_cards_img{
+      display: flex;
+      overflow-x: scroll;
+    }
     .controls{
-
+      position: absolute;
+      top: 30%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      span{
+        font-size: 40px;
+        padding: 10px 25px;
+        font-weight: 300;
+        background-color: #fff;
+        color: #0A347D;
+      }
     }
     .card{
       .card_text{
