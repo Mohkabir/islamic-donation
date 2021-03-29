@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <body>
   <header>
     <div class="header_main">
@@ -37,101 +39,124 @@
             <span>worldwide</span>
           </div>
           <div class="navBar_donateButton">
-            <nav>
-              <ul>
-                <li>
-                  <a href=""><i></i> About us</a>
-                  <ul>
-                    <li><a href="">Board of Trustees</a></li>
-                    <li><a href="">Board of Directors</a></li>
-                    <li><a href="">History</a></li>
-                    <li><a href="">Governance</a></li>
-                    <li><a href="">Annual Reports</a></li>
-                    <li><a href="">Our Strategy</a></li>
-                    <li><a href="">Work With Us</a></li>
-                    <li><a href="">Where your donation goes</a></li>
-                    <li><a href="">Contact Us</a></li>
-                    <li><a href="">Modern Slavery Statement</a></li>
-                    <li><a href="">‘Do no harm’ commitment</a></li>
-                    <li><a href="">Gender Pay Gap</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href=""><i></i> What we do</a>
-                  <ul>
-                    <li><a href=""> Seasonal projects</a></li>
-                    <li><a href="">Protecting life and dignity</a></li>
-                    <li><a href="">Campaigning for change</a></li>
-                    <li><a href="">Empowering communities</a></li>
-                    <li><a href="">Strengthening the Islamic Relief Partnership
-                      Our Promises</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href=""><i></i> Where we work</a>
-                  <ul>
-                    <li><a href="">Partner Offices</a></li>
-                    <li><a href="">Afghanistan</a></li>
-                    <li><a href="">Albania</a></li>
-                    <li><a href="">Bangladesh</a></li>
-                    <li><a href="">Bosnia and Herzegovina</a></li>
-                    <li><a href="">Central African Republic</a></li>
-                    <li><a href="">Chad</a></li>
-                    <li><a href="">China</a></li>
-                    <li><a href="">Ethiopia</a></li>
-                    <li><a href="">Indonesia</a></li>
-                    <li><a href="">Iraq</a></li>
-                    <li><a href="">Jordan</a></li>
-                    <li><a href="">Kenya</a></li>
-                    <li><a href="">Kosova</a></li>
-                    <li><a href="">Lebanon</a></li>
-                    <li><a href="">Malawi</a></li>
-                    <li><a href="">Mali</a></li>
-                    <li><a href="">Myanmar</a></li>
-                    <li><a href="">Nepal</a></li>
-                    <li><a href="">Niger</a></li>
-                    <li><a href="">Palestinian Territories</a></li>
-                    <li><a href="">Pakistan</a></li>
-                    <li><a href="">Philippines</a></li>
-                    <li><a href="">Russian Federation</a></li>
-                    <li><a href="">Somalia</a></li>
-                    <li><a href="">South Africa</a></li>
-                    <li><a href="">South Sudan</a></li>
-                    <li><a href="">Sri Lanka</a></li>
-                    <li><a href="">Sudan</a></li>
-                    <li><a href="">Syrian Arab Republic</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href=""><i></i> Current appeals</a>
-                  <ul>
-                    <li><a href="">Coronavirus Appeal</a></li>
-                    <li><a href="">Gaza Emergency</a></li>
-                    <li><a href="">Syria Crisis</a></li>
-                    <li><a href="">Yemen Crisis</a></li>
-                  </ul>
-                </li>
-                <li><a href="">Our campaigns</a></li>
-                <li>
-                  <a href=""><i></i> Policy and publications</a>
-                  <li><a href="">Evaluations</a></li>
-                </li>
-                <li>
-                  <a href=""><i></i> Media</a>
-                  <ul>
-                    <li><a href="">Islamic Relief in the media</a></li>
-                    <li><a href="">Blogs</a></li>
-                    <li><a href="">Press Releases</a></li>
-                    <li><a href="">Media Enquiries</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </nav>
             <button>Donate</button>
             <i class="fa fa-bars"></i>
           </div>
         </div>
+        
       </div>
+      <nav class="nav_wrapper">
+          <ul >
+            <li>
+              <div class="nav_content">
+                <a href="">About us</a>
+                <i class="fas fa-angle-down"></i>
+              </div>
+              <ul>
+                <li><a href="">Board of Trustees</a></li>
+                <li><a href="">Board of Directors</a></li>
+                <li><a href="">History</a></li>
+                <li><a href="">Governance</a></li>
+                <li><a href="">Annual Reports</a></li>
+                <li><a href="">Our Strategy</a></li>
+                <li><a href="">Work With Us</a></li>
+                <li><a href="">Where your donation goes</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Modern Slavery Statement</a></li>
+                <li><a href="">‘Do no harm’ commitment</a></li>
+                <li><a href="">Gender Pay Gap</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="nav_content">
+                <a href="">What we do</a>
+                <i class="fas fa-angle-down"></i>
+              </div>
+              <ul>
+                <li><a href=""> Seasonal projects</a></li>
+                <li><a href="">Protecting life and dignity</a></li>
+                <li><a href="">Campaigning for change</a></li>
+                <li><a href="">Empowering communities</a></li>
+                <li><a href="">Strengthening the Islamic Relief Partnership
+                  Our Promises</a></li>
+              </ul>
+            </li>
+            <li> 
+              <div class="nav_content">
+                <a href="">Where we work</a>
+                <i class="fas fa-angle-down"></i>
+              </div>
+              <ul>
+                <li><a href="">Partner Offices</a></li>
+                <li><a href="">Afghanistan</a></li>
+                <li><a href="">Albania</a></li>
+                <li><a href="">Bangladesh</a></li>
+                <li><a href="">Bosnia and Herzegovina</a></li>
+                <li><a href="">Central African Republic</a></li>
+                <li><a href="">Chad</a></li>
+                <li><a href="">China</a></li>
+                <li><a href="">Ethiopia</a></li>
+                <li><a href="">Indonesia</a></li>
+                <li><a href="">Iraq</a></li>
+                <li><a href="">Jordan</a></li>
+                <li><a href="">Kenya</a></li>
+                <li><a href="">Kosova</a></li>
+                <li><a href="">Lebanon</a></li>
+                <li><a href="">Malawi</a></li>
+                <li><a href="">Mali</a></li>
+                <li><a href="">Myanmar</a></li>
+                <li><a href="">Nepal</a></li>
+                <li><a href="">Niger</a></li>
+                <li><a href="">Palestinian Territories</a></li>
+                <li><a href="">Pakistan</a></li>
+                <li><a href="">Philippines</a></li>
+                <li><a href="">Russian Federation</a></li>
+                <li><a href="">Somalia</a></li>
+                <li><a href="">South Africa</a></li>
+                <li><a href="">South Sudan</a></li>
+                <li><a href="">Sri Lanka</a></li>
+                <li><a href="">Sudan</a></li>
+                <li><a href="">Syrian Arab Republic</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="nav_content">
+                <a href=""> Current appeals</a>
+                <i class="fas fa-angle-down"></i>
+              </div>   
+              <ul>
+                <li><a href="">Coronavirus Appeal</a></li>
+                <li><a href="">Gaza Emergency</a></li>
+                <li><a href="">Syria Crisis</a></li>
+                <li><a href="">Yemen Crisis</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="nav_content">
+                <a href="">Our campaigns</a>
+                <i class="fas fa-angle-down"></i>
+              </div> 
+            </li>
+            <li>    
+              <div class="nav_content">
+                <a href=""> Policy and publications</a>
+                <i class="fas fa-angle-down"></i>
+              </div> 
+            </li>
+            <li>         
+              <div class="nav_content">
+                <a href=""> Media</a>
+                <i class="fas fa-angle-down"></i>
+              </div>
+              <ul>
+                <li><a href="">Islamic Relief in the media</a></li>
+                <li><a href="">Blogs</a></li>
+                <li><a href="">Press Releases</a></li>
+                <li><a href="">Media Enquiries</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
     </div>
     <div class="header_img_display">
       <div class="img_container">
@@ -313,21 +338,18 @@
     </div>
     <div class="section6_cards">
       <div class="card">
-        <img src="./asset/10.jpg" alt="ISLAMIC SOCIAL">
         <div class="card_text">
           <h1>WAQF</h1>
           <p><a href="">Read more</a></p>
         </div>
       </div>
       <div class="card">
-        <img src="./asset/11.jpg" alt="ISLAMIC SOCIAL">
         <div class="card_text">
           <h1>HUMANITARIAN ACADEMY FOR DEVELOPMENT</h1>
           <p><a href="">Read more</a></p>
         </div>
       </div>
       <div class="card">
-        <img src="./asset/12.jpg" alt="ISLAMIC SOCIAL">
         <div class="card_text">
           <h1>ISLAMIC SOCIAL FINANCE</h1>
           <p><a href="">Read more</a></p>
@@ -464,5 +486,7 @@
     <p>&copy; 2021 design by mohammed kabir</p>
     <p>inspiration islamic Relief (Worldwide) TM 2019</p>
   </footer>
+
+  <script src="./js/script.js"></script>
 </body>
 </html>
