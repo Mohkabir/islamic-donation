@@ -2,6 +2,9 @@ $(document).ready(function(){
   $(".fa-bars").click(function(){
     $(".nav_wrapper").slideToggle();
 
+  //  $(".nav_contentangle_down").click(function(){
+  //    $(".nav_content_contents").slideToggle();
+ //   })
 
     let togglee = 0;
     navbar.addEventListener("click",function(){

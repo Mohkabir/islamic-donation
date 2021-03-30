@@ -22,11 +22,12 @@ body header .header_main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100px;
+  padding: 0;
 }
 
 body header .header_main .logo {
   width: 50px;
+  margin: 0;
 }
 
 body header .header_main .navigation {
@@ -47,7 +48,7 @@ body header .header_main .navigation .navBar_container {
 }
 
 body header .header_main .navigation .navBar_container .logo_text {
-  font-size: 1em;
+  font-size: 0.8em;
   width: 40%;
   padding: 0.5em;
   font-weight: 600;
@@ -59,12 +60,13 @@ body header .header_main .navigation .navBar_container .logo_text .blue {
 }
 
 body header .header_main .navigation .navBar_container .navBar_donateButton {
-  width: 60%;
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -76,12 +78,16 @@ body header .header_main .navigation .navBar_container .navBar_donateButton butt
   -webkit-box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
           box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
   padding: 10px;
+  margin-right: 20px;
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 body header .header_main .navigation .navBar_container .navBar_donateButton .fa-bars {
+  position: absolute;
+  top: 0;
+  right: 0;
   padding: 25px 20px;
   width: 60px;
   font-size: 30px;
@@ -99,18 +105,19 @@ body header .header_main .nav_wrapper {
 
 body header .header_main .nav_wrapper ul {
   margin: 0;
-  padding: 1em;
+  padding: 2em 0;
   background-color: #18307F;
   color: #fff;
   z-index: 200;
+  overflow-y: scroll;
 }
 
 body header .header_main .nav_wrapper ul li {
   text-transform: uppercase;
-  padding: 1em 0.5em;
   border-bottom: 1px solid;
   font-weight: 600;
   font-size: 0.8em;
+  background-color: #13245D;
 }
 
 body header .header_main .nav_wrapper ul li .nav_content {
@@ -120,18 +127,39 @@ body header .header_main .nav_wrapper ul li .nav_content {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 0 1em;
 }
 
 body header .header_main .nav_wrapper ul li .nav_content a {
   color: white;
+  display: block;
+  width: 90%;
+  padding: 1em 0;
 }
 
 body header .header_main .nav_wrapper ul li .nav_content i {
   color: #007DC6;
+  padding: 1em 0;
+}
+
+body header .header_main .nav_wrapper ul li .nav_content i:hover ul li .nav_content_contents {
+  display: block;
 }
 
 body header .header_main .nav_wrapper ul li ul {
   display: none;
+}
+
+body header .header_main .nav_wrapper ul li ul li {
+  text-transform: uppercase;
+  padding: 1em 0.5em;
+  border-bottom: 0px;
+  font-weight: 600;
+  font-size: 0.7em;
+}
+
+body header .header_main .nav_wrapper ul li ul li a {
+  color: white;
 }
 
 body header .header_img_display {
@@ -158,7 +186,7 @@ body header .header_img_display .img_container .img_trackers .tracker {
   border: 2px solid #fff;
 }
 
-@media (min-width: 450px) {
+@media (min-width: 1050px) {
   body .addcolor {
     background-color: #18307F;
   }
