@@ -137,8 +137,6 @@
   
   
 }
-
-
 .section3{
   .section3_header{
     text-align: center;
@@ -190,8 +188,6 @@
     }
   }
 }
-
-
 .section4{
   background-image: url("../asset/map.jpg");
   background-repeat: no-repeat;
@@ -314,7 +310,6 @@
   }
 }
 
-
 .section7{
   .section7_header{
     display: flex;
@@ -388,15 +383,20 @@
     .follow_us{
       grid-column: span 12;
       grid-row: 2;
-      i{
-        font-size: 25px;
-        margin: 0.5em;
-        
+      span{
+        border: 1px solid;
+        padding: 0.5em;
+        background-color: #0A347D;
+        i{
+          font-size: 20px;
+          width: 30px;
+          margin: 0.5em; 
+          border-right: 1px solid;  
+        }
       }
     }
   }
 }
-
 .section9{
   background-color: #13245D;
   color: #007DBF;
@@ -423,19 +423,28 @@
         display: none;
       }
     }
-    .section9_bottom{
-      margin: 2em 0;
-      p{
-        border-bottom: 1px solid;
-        padding: 0.5em;
-        font-size: 0.8em;
-        text-transform: uppercase;
-        margin:0.5em 0;
+  }
+  .section9_bottom{
+    margin: 2em 0;
+    p{
+      border-bottom: 1px solid;
+      padding: 0.5em;
+      font-size: 0.8em;
+      text-transform: uppercase;
+      margin:0.5em 0;
+      display: flex;
+      justify-content: space-between;
+      font-weight: 700;
+      span{
+        display: none;
+      }
+      a{
+        color: #fff;
+        
       }
     }
   }
 }
-
 
 @media( min-width: 700px ){
 
@@ -463,6 +472,37 @@
       }
     }
   }
+  .section5{
+    .section5_header{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 3em 0;
+      .line{
+        width: 15%;
+        height: 1px;
+        background: #000;
+      }
+    }
+    .section5_cards{
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      .card{
+        img{
+          width: 70%;
+        }
+        button{
+          background-color: #E7E7E7;
+          padding: 5px 8px;
+          margin: 1em;
+          border: none;
+          font-weight: 500;
+        }
+      }
+    }
+  }
   .section6{
     .section6_cards{
       gap: 10px;
@@ -481,6 +521,118 @@
         background-image: url("../asset/12.jpg");
         grid-column: 7/13;
         grid-row: 2/3;
+      }
+    }
+  }
+  .section8{
+    background-color: #18307F;
+    color: #9AA7C7;
+    font-size: 0.8em;
+    .section8_cards{
+      padding: 1em;
+      .card{
+        margin: 0.5em;
+        h3{
+          color: #ffffff;
+          margin: 0.3em 0;
+        }
+      }
+      .logo{
+        display: block;
+        grid-column:1/4 ;
+        grid-row: 1;
+        img{
+          width: 30%;
+        }
+      }
+      .contact{
+        grid-column:4/7 ;
+        grid-row: 1;
+        ul{
+          padding: 0.5em 0;
+          li{
+            color: #fff;
+            i{
+              font-size: 15px;
+              margin-right: 0.4em;
+              color: #007DC6; 
+            }
+          }
+        }
+      }
+      .address{
+        grid-column: 7/10;
+        grid-row: 1;
+      }
+      .follow_us{
+        grid-column: 10/13;
+        grid-row: 1;
+        i{
+          font-size: 25px;
+          margin: 0.5em;
+          
+        }
+      }
+    }
+  }
+  .section9{
+    background-color: #13245D;
+    color: #007DBF;
+    padding: 1em 0;
+    margin-bottom: 2em;
+    .section9_cards{
+      flex-direction: row;
+      justify-content: space-evenly;
+      border-bottom: 1px solid ;
+      .card{
+        width: 23%;
+        .card_head{
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          border-bottom: 0px;
+          align-items: center;
+          i{
+            display: none;
+          }
+        }
+        
+        ul{
+          display: block;
+          li{  
+            border-bottom: 1px solid;
+            color: #9CA6B3;
+            display: flex;
+            align-items: center;
+            a{
+              color: #9CA6B3;
+              display: inline-block;
+              padding: 1em 0;
+            }
+            .fas{
+              color: #007DC6;
+              margin-right: 0.4em;
+            }
+          }
+        }
+      }  
+    }
+    .section9_bottom{
+      margin: 1em 0;
+      p{
+    display: block;
+   
+        span{
+          display: inline-block;
+        }
+        i{
+          display: none;
+        }
+        a{
+          color: #fff;
+          padding:0.7em;
+          display: inline-block;
+        }
       }
     }
   }

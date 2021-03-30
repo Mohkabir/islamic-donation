@@ -17,6 +17,13 @@ body{
     padding: 2em;
     background-color: #F2F2F2;
     font-size: 0.7em;
+    text-align: center;
+  }
+}
+
+@media( min-width: 700px ){
+  body{
+    font-size: 20px;
   }
 }
 
