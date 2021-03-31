@@ -91,6 +91,7 @@ header {
             display: flex;
             justify-content: space-between;
             padding: 0 1em;
+
             a {
               color: rgb(255, 255, 255);
               display: block;
@@ -101,31 +102,34 @@ header {
             i {
               color: #007DC6;
               padding: 1em 0;
-              &:hover{
-                ul{
-                  li{
+
+              &:hover {
+                ul {
+                  li {
                     .nav_content_contents {
                       display: block;
                     }
                   }
-                  
                 }
               }
             }
-            
-            
           }
-         
 
-          ul {
+          .nav_content_contents {
             display: none;
-            li {
-              text-transform: uppercase;
-              padding: 1em 0.5em;
-              border-bottom: 0px;
-              font-weight: 600;
-              font-size: 0.7em;
+          }
+
+          &:hover{
+            .nav_content_contents{
+              display: block;
+              padding: 1em ;
               a {
+                display: block;
+                text-transform: uppercase;
+                padding: 1em 0.5em;
+                border-bottom: 0px;
+                font-weight: 600;
+                font-size: 0.7em;
                 color: rgb(255, 255, 255);
               }
             }
@@ -137,7 +141,8 @@ header {
 
   .header_img_display {
     position: relative;
-    .controls{
+
+    .controls {
       display: none;
     }
 
@@ -173,24 +178,28 @@ header {
         width: 85%;
         .navBar_container {
           justify-content: space-between;
+
           .logo_text {
             font-size: 1em;
             width: 30%;
           }
+
           .navBar_donateButton {
             width: 30%;
           }
         }
       }
     }
-    .header_img_display{
-      .controls{
+
+    .header_img_display {
+      .controls {
         position: absolute;
         top: 45%;
         width: 100%;
         display: flex;
         justify-content: space-between;
-        span{
+
+        span {
           font-size: 40px;
           padding: 10px 25px;
           font-weight: 300;
@@ -210,53 +219,62 @@ header {
       position: fixed;
       top: 0;
       left: 2%;
+
       .logo {
         width: 80px;
         margin: 0;
+        z-index: 800;
       }
-  
+
       .navigation {
         margin: 0;
         padding: 0;
         width: 100%;
-  
+
         .top_nav {
           display: block;
-          background-color: #F2F2F2;    
+          background-color: #F2F2F2;
           padding: 0.5em 0;
+
           ul {
             display: flex;
             justify-content: flex-end;
-            .english{
-              border-right: 1px solid ;
+
+            .english {
+              border-right: 1px solid;
             }
-            li{
-              a{
+
+            li {
+              a {
                 color: #0A0A0A;
                 display: inline-block;
                 padding: 0.5em;
               }
-              i{
-                &:hover{
+
+              i {
+                &:hover {
                   color: #0A347D;
                 }
               }
             }
-            div{
+
+            div {
               padding: 0.5em;
               background-color: #E3E3E3;
-              input{
+
+              input {
                 display: none;
               }
-              &:hover{
-                background-color:#0A347D;
+
+              &:hover {
+                background-color: #0A347D;
                 color: #007FC3;
               }
             }
 
           }
         }
-  
+
         .navBar_container {
           display: flex;
           justify-content: center;
@@ -264,29 +282,30 @@ header {
           background-color: #fff;
           padding: 0.8em 0;
           position: relative;
-  
+
           .logo_text {
             font-size: 1em;
             width: 150px;
             padding: 0em 0.4em;
             position: absolute;
             left: 0;
+            z-index: 600;
           }
-  
+
           .navBar_donateButton {
             width: 100%;
             display: block;
             text-align: right;
-            button {
-            }
-  
+
+            button {}
+
             .fa-bars {
               display: none;
             }
           }
         }
       }
-  
+
       .nav_wrapper {
         display: block;
         width: 100%;
@@ -297,60 +316,64 @@ header {
 
         ul {
           display: flex;
-          margin: 0;
           padding: 0em;
           background-color: #fff;
           z-index: 200;
           overflow-y: hidden;
-          width: 65%;  
+          width: 87%;
           margin: 0 auto;
+          //    margin-right: 10%;
+          //       background-color: red;
+          justify-content: center;
+
           li {
             text-transform: capitalize;
             border-bottom: 0;
             font-weight: 600;
-            font-size: 0.6em;
+            font-size: 0.8em;
             background-color: #fff;
-  
+            padding: 0.3em 0;
             .nav_content {
               display: flex;
-              justify-content: space-between;
-              padding: 0 1em;
+              padding: 1em 0;
+              padding-right: 0.6em;
+              align-items: center;
+
               a {
-                color:#000;
-                display: block;
-                width: 90%;
-                padding: 1em 0;
+                color: #000;
+                display: inline;
+                width: 98%;
+                padding: 0;
               }
-  
+
               i {
                 color: #007DC6;
-                padding: 1em 0;
-                &:hover{
-                  ul{
-                    li{
-                      .nav_content_contents {
-                        display: block;
-                      }
-                    }
-                    
-                  }
-                }
+                padding: 0;
+                display: inline;
               }
-              
-              
             }
-           
-  
-            ul {
-              display: none;
-              li {
-                text-transform: uppercase;
-                padding: 1em 0.5em;
-                border-bottom: 0px;
-                font-weight: 600;
-                font-size: 0.7em;
+            &:hover {
+              a {
+                color: #007DC6;
+              }
+
+              .nav_content_contents {
+                display: block;
+                position: absolute;
+                top: 80px;
+                padding: 3em 10em;
+                left: 0;
+                z-index: 1000;
+                background-color: #18307F;            
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
                 a {
-                  color: rgb(255, 255, 255);
+                  grid-column: span 4;
+                  color: #fff;
+                  &:hover{
+                    color: #0180C7;
+                  }
                 }
               }
             }
@@ -358,16 +381,17 @@ header {
         }
       }
     }
-  
+
     .header_img_display {
       position: relative;
-      .controls{
+
+      .controls {
         display: none;
       }
-  
+
       .img_container {
         .img_text_container {}
-  
+
       }
     }
   }
