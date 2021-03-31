@@ -504,6 +504,7 @@
     }
   }
   .section6{
+    padding: 0 4em;
     .section6_cards{
       gap: 10px;
       .card:nth-child(1){
@@ -528,6 +529,7 @@
     background-color: #18307F;
     color: #9AA7C7;
     font-size: 0.8em;
+    padding: 1em 4em;
     .section8_cards{
       padding: 1em;
       .card{
@@ -578,8 +580,8 @@
   .section9{
     background-color: #13245D;
     color: #007DBF;
-    padding: 1em 0;
     margin-bottom: 2em;
+    padding: 1em 4em;
     .section9_cards{
       flex-direction: row;
       justify-content: space-evenly;
@@ -632,6 +634,74 @@
           color: #fff;
           padding:0.7em;
           display: inline-block;
+        }
+      }
+    }
+  }
+}
+
+
+@media( min-width: 900px ){
+  .section1{
+    padding: 0 4em;
+    .section1_cards{
+      gap: 30px;
+      .card:nth-child(1){
+        grid-column: 1/5;
+        grid-row: 1;
+      }
+      .card:nth-child(2){
+        grid-column: 5/9;
+        grid-row: 1;
+      }
+      .card:nth-child(3){
+        grid-column: 9/13;
+        grid-row: 1;
+      }
+    }
+  }
+  .section3{
+    .section3_header{
+      text-align: center;
+      font-size: 1.3em;
+      margin: 1em 0;
+      font-weight: 700;
+      .fas{
+        background-color: #007FC3;
+        color: #fff;
+        padding: 8px;
+        border-radius: 50px;  
+      }
+  
+    }
+    .section3_boxes{
+      flex-direction: row;
+      align-items: center;
+      width: 90%;
+      .section3_boxes_img{
+        width: 50%;
+        img{
+          width: 100%;
+        }
+      }
+      .section3_boxes_text{
+        width: 50%;
+        padding: 2em;
+      }
+    }
+    .section3_cards{
+      display: flex;
+      flex-direction: row;
+      padding: 1em;
+      .card{
+        margin: 1em;
+        position: relative;
+        width: 100%;
+        .card_text{
+        padding: 0.5em 0.2em;
+        position: absolute;
+        top: 0%;
+        color: #fff;
         }
       }
     }
