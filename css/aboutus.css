@@ -1,0 +1,86 @@
+.aboutus .aboutus_head {
+  background-color: #081F3F;
+  color: #Fff;
+  padding: 3em 2em;
+}
+
+.aboutus .aboutus_head h1 {
+  font-size: 2em;
+  margin: 0.5em 0;
+}
+
+.aboutus .aboutus_head p {
+  color: #718585;
+}
+
+.aboutus .aboutus_head p a {
+  color: #0180C7;
+}
+
+.aboutus .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.aboutus .cards .card1 {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+.aboutus .cards .card1 ul li:nth-child(1) {
+  background-color: #F0F0F0;
+}
+
+.aboutus .cards .card1 ul li {
+  margin: 0.3em 0;
+  text-transform: capitalize;
+  border-bottom: 1px solid #F0F0F0;
+  color: #0180C7;
+  padding: 0.5em;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.aboutus .cards .card1 ul li a {
+  color: #0180C7;
+  display: inline-block;
+  padding: 0.5em;
+  font-weight: 600;
+}
+
+.aboutus .cards .card1 ul li a i {
+  font-size: 15px;
+  color: #BDBDBD;
+  margin-right: 0.3em;
+}
+
+.aboutus .cards .card2 {
+  padding: 1em;
+}
+
+.aboutus .cards .card2 .card2_text h2, .aboutus .cards .card2 .card2_text h3, .aboutus .cards .card2 .card2_text p {
+  margin: 1em 0;
+}
+
+.aboutus .cards .card2 .card2_text ul {
+  margin: 0.5em;
+}
+
+.aboutus .cards .card2 .card2_text ul li::before {
+  content: "\2022";
+  color: #007FC7;
+  font-weight: bolder;
+  display: inline-block;
+  font-size: 35px;
+}
+
+.aboutus .cards .card2 .card2_text ul li {
+  font-weight: 600;
+}
+/*# sourceMappingURL=aboutus.css.map */
