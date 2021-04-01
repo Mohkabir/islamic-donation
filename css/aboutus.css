@@ -37,6 +37,10 @@
   background-color: #F0F0F0;
 }
 
+.aboutus .cards .card1 ul .space {
+  padding-left: 1.5em;
+}
+
 .aboutus .cards .card1 ul li {
   margin: 0.3em 0;
   text-transform: capitalize;
@@ -45,6 +49,12 @@
   padding: 0.5em;
   font-size: 1.2em;
   font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .aboutus .cards .card1 ul li a {
@@ -54,7 +64,7 @@
   font-weight: 600;
 }
 
-.aboutus .cards .card1 ul li a i {
+.aboutus .cards .card1 ul li i {
   font-size: 15px;
   color: #BDBDBD;
   margin-right: 0.3em;
@@ -68,6 +78,10 @@
   margin: 1em 0;
 }
 
+.aboutus .cards .card2 .card2_text p a {
+  color: #007FC7;
+}
+
 .aboutus .cards .card2 .card2_text ul {
   margin: 0.5em;
 }
@@ -75,12 +89,219 @@
 .aboutus .cards .card2 .card2_text ul li::before {
   content: "\2022";
   color: #007FC7;
-  font-weight: bolder;
+  font-weight: 600;
   display: inline-block;
   font-size: 35px;
 }
 
 .aboutus .cards .card2 .card2_text ul li {
   font-weight: 600;
+}
+
+.aboutus .cards .card2 .card2_text ul li span {
+  font-weight: 900;
+  font-size: 1.1em;
+}
+
+.aboutus .cards .card2 .card2_text .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 2em 0;
+  padding-bottom: 5em;
+}
+
+.aboutus .cards .card2 .card2_text .social div {
+  margin: 0.5em 0.3em;
+  border-radius: 5px;
+  padding: 4px 8px;
+  border-bottom: 1px solid #DCDCDC;
+  border-left: 1px solid #DCDCDC;
+  border-right: 1px solid #DCDCDC;
+}
+
+.aboutus .cards .card2 .card2_text .social div i {
+  margin-right: 6px;
+}
+
+.aboutus .cards .card2 .card2_text .social div:nth-child(1) {
+  border-top: 3px solid #3B59A1;
+}
+
+.aboutus .cards .card2 .card2_text .social div:nth-child(1) i {
+  color: #3B59A1;
+}
+
+.aboutus .cards .card2 .card2_text .social div:nth-child(2) {
+  border-top: 3px solid #1DCAFF;
+}
+
+.aboutus .cards .card2 .card2_text .social div:nth-child(2) i {
+  color: #1DCAFF;
+}
+
+.aboutus .cards .card2 .card2_text .social div:nth-child(3) {
+  border-top: 3px solid #DD4B70;
+}
+
+.aboutus .cards .card2 .card2_text .social div:nth-child(3) i {
+  color: #DD4B70;
+}
+
+.aboutus .cards .card2 .card2_text .social div:nth-child(4) {
+  border-top: 3px solid #3F72B3;
+}
+
+.aboutus .cards .card2 .card2_text .social div:nth-child(4) i {
+  color: #3F72B3;
+}
+
+.aboutus .cards .card2 .card2_text .social div:nth-child(5) {
+  border-top: 3px solid #8F8F8F;
+}
+
+.aboutus .cards .card2 .card2_text .social div:nth-child(5) i {
+  color: #8F8F8F;
+}
+
+@media (min-width: 910px) {
+  .aboutus .aboutus_head {
+    padding: 9em 2em;
+  }
+  .aboutus .aboutus_head h1 {
+    font-size: 3em;
+    margin: 0.5em 0;
+  }
+  .aboutus .cards {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 97%;
+    margin-top: -150px;
+    margin-left: 4%;
+    z-index: 500;
+    background-color: #fff;
+  }
+  .aboutus .cards .card1 {
+    width: 25%;
+    margin: 0 auto;
+    padding: 2em 0;
+  }
+  .aboutus .cards .card1 ul li:nth-child(1) {
+    background-color: #F0F0F0;
+  }
+  .aboutus .cards .card1 ul .space {
+    padding-left: 1.5em;
+  }
+  .aboutus .cards .card1 ul li {
+    margin: 0.3em 0;
+    text-transform: capitalize;
+    border-bottom: 1px solid #F0F0F0;
+    color: #0180C7;
+    padding: 0.5em;
+    font-size: 1.2em;
+    font-weight: 600;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .aboutus .cards .card1 ul li a {
+    color: #0180C7;
+    display: inline-block;
+    padding: 0.5em;
+    font-weight: 600;
+  }
+  .aboutus .cards .card1 ul li i {
+    font-size: 15px;
+    color: #BDBDBD;
+    margin-right: 0.3em;
+  }
+  .aboutus .cards .card2 {
+    width: 70%;
+    padding: 1em;
+    padding-right: 4em;
+  }
+  .aboutus .cards .card2 .card2_text h2, .aboutus .cards .card2 .card2_text h3, .aboutus .cards .card2 .card2_text p {
+    margin: 1em 0;
+  }
+  .aboutus .cards .card2 .card2_text p a {
+    color: #007FC7;
+  }
+  .aboutus .cards .card2 .card2_text ul {
+    margin: 0.5em;
+  }
+  .aboutus .cards .card2 .card2_text ul li::before {
+    content: "\2022";
+    color: #007FC7;
+    font-weight: 600;
+    display: inline-block;
+    font-size: 35px;
+  }
+  .aboutus .cards .card2 .card2_text ul li {
+    font-weight: 600;
+  }
+  .aboutus .cards .card2 .card2_text ul li span {
+    font-weight: 900;
+    font-size: 1.1em;
+  }
+  .aboutus .cards .card2 .card2_text .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 2em 0;
+    padding-bottom: 5em;
+  }
+  .aboutus .cards .card2 .card2_text .social div {
+    margin: 0.5em 0.3em;
+    border-radius: 5px;
+    padding: 4px 8px;
+    border-bottom: 1px solid #DCDCDC;
+    border-left: 1px solid #DCDCDC;
+    border-right: 1px solid #DCDCDC;
+  }
+  .aboutus .cards .card2 .card2_text .social div i {
+    margin-right: 6px;
+  }
+  .aboutus .cards .card2 .card2_text .social div:nth-child(1) {
+    border-top: 3px solid #3B59A1;
+  }
+  .aboutus .cards .card2 .card2_text .social div:nth-child(1) i {
+    color: #3B59A1;
+  }
+  .aboutus .cards .card2 .card2_text .social div:nth-child(2) {
+    border-top: 3px solid #1DCAFF;
+  }
+  .aboutus .cards .card2 .card2_text .social div:nth-child(2) i {
+    color: #1DCAFF;
+  }
+  .aboutus .cards .card2 .card2_text .social div:nth-child(3) {
+    border-top: 3px solid #DD4B70;
+  }
+  .aboutus .cards .card2 .card2_text .social div:nth-child(3) i {
+    color: #DD4B70;
+  }
+  .aboutus .cards .card2 .card2_text .social div:nth-child(4) {
+    border-top: 3px solid #3F72B3;
+  }
+  .aboutus .cards .card2 .card2_text .social div:nth-child(4) i {
+    color: #3F72B3;
+  }
+  .aboutus .cards .card2 .card2_text .social div:nth-child(5) {
+    border-top: 3px solid #8F8F8F;
+  }
+  .aboutus .cards .card2 .card2_text .social div:nth-child(5) i {
+    color: #8F8F8F;
+  }
 }
 /*# sourceMappingURL=aboutus.css.map */

@@ -356,8 +356,10 @@ body header .header_img_display .img_container .img_trackers .tracker {
     padding: 0;
   }
   body header .header_main .nav_wrapper ul li .nav_content i {
-    color: #007DC6;
+    color: #BDBDBD;
+    font-size: 15px;
     padding: 0;
+    margin-left: 0.2em;
     display: inline;
   }
   body header .header_main .nav_wrapper ul li:hover a {
