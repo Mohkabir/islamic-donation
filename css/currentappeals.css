@@ -1,0 +1,119 @@
+.currentappeals .currentappeals_head {
+  position: relative;
+}
+
+.currentappeals .currentappeals_head .thumb {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0, 125, 198, 0.2);
+}
+
+.currentappeals .currentappeals_head .thumb h1 {
+  font-size: 2em;
+  margin: 0.5em 0;
+}
+
+.currentappeals .currentappeals_head .thumb p {
+  color: #718585;
+}
+
+.currentappeals .currentappeals_head .thumb p a {
+  color: #0180C7;
+}
+
+.currentappeals .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.currentappeals .cards .card1 {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+.currentappeals .cards .card1 ul li {
+  margin: 0.3em 0;
+  text-transform: capitalize;
+  border-bottom: 1px solid #F0F0F0;
+  color: #0180C7;
+  padding: 0.5em;
+  font-size: 1.2em;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.currentappeals .cards .card1 ul li a {
+  color: #0180C7;
+  display: inline-block;
+  padding: 0.5em;
+  font-weight: 600;
+}
+
+.currentappeals .cards .card1 ul li:hover {
+  background-color: #F0F0F0;
+}
+
+.currentappeals .cards .card2 {
+  padding: 1em;
+}
+
+.currentappeals .cards .card2 .thumb_wrapper {
+  position: relative;
+  color: #fff;
+  border: 7px solid;
+  -webkit-transition: 400ms ease-in;
+  transition: 400ms ease-in;
+  padding: 0;
+}
+
+.currentappeals .cards .card2 .thumb_wrapper:hover {
+  border: 7px solid #F84F59;
+}
+
+.currentappeals .cards .card2 .thumb_wrapper .thumb {
+  position: absolute;
+  padding: 0.5em;
+  margin: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.currentappeals .cards .card2 .thumb_wrapper .thumb h2 {
+  font-weight: 700;
+}
+
+.currentappeals .cards .card2 .thumb_wrapper .thumb button {
+  margin: 0.5em;
+  background-color: #007DC6;
+  color: #fff;
+  font-weight: 600;
+  padding: 5px;
+  width: 150px;
+  outline: none;
+  border: none;
+}
+/*# sourceMappingURL=currentappeals.css.map */
