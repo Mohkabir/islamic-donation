@@ -1,0 +1,225 @@
+.wherewework {
+  background-color: #F2F2F2;
+}
+
+.wherewework .wherewework_head {
+  background-color: #081F3F;
+  color: #Fff;
+  padding: 3em 2em;
+}
+
+.wherewework .wherewework_head h1 {
+  font-size: 2em;
+  margin: 0.5em 0;
+}
+
+.wherewework .wherewework_head p {
+  color: #718585;
+}
+
+.wherewework .wherewework_head p a {
+  color: #0180C7;
+}
+
+.wherewework .cards {
+  padding: 0.5em;
+}
+
+.wherewework .cards .thumb_wrapper {
+  position: relative;
+}
+
+.wherewework .cards .thumb_wrapper .thumb {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0.8em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.wherewework .cards .thumb_wrapper .thumb h1 span {
+  line-height: 35px;
+  border-bottom: 5px solid #F84F59;
+  font-weight: 800;
+}
+
+.wherewework .cards .card_text {
+  padding: 1em 0;
+  border-bottom: 1px solid #BEBEBE;
+}
+
+.wherewework .cards .card_text p {
+  font-size: 1.5em;
+  padding: 1em 0;
+}
+
+.wherewework .cards .card_text h3 {
+  margin: 1em;
+  font-size: 1.1em;
+}
+
+.wherewework .cards .countries {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wherewework .cards .countries div {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1em 0;
+}
+
+.wherewework .cards .countries div img {
+  width: 30px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.wherewework .cards .countries div span {
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.wherewework .cards .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 2em 0;
+  padding-bottom: 5em;
+}
+
+.wherewework .cards .social div {
+  margin: 0.5em 0.3em;
+  border-radius: 5px;
+  padding: 4px 8px;
+  border-bottom: 1px solid #DCDCDC;
+  border-left: 1px solid #DCDCDC;
+  border-right: 1px solid #DCDCDC;
+}
+
+.wherewework .cards .social div i {
+  margin-right: 6px;
+}
+
+.wherewework .cards .social div:nth-child(1) {
+  border-top: 3px solid #3B59A1;
+}
+
+.wherewework .cards .social div:nth-child(1) i {
+  color: #3B59A1;
+}
+
+.wherewework .cards .social div:nth-child(2) {
+  border-top: 3px solid #1DCAFF;
+}
+
+.wherewework .cards .social div:nth-child(2) i {
+  color: #1DCAFF;
+}
+
+.wherewework .cards .social div:nth-child(3) {
+  border-top: 3px solid #DD4B70;
+}
+
+.wherewework .cards .social div:nth-child(3) i {
+  color: #DD4B70;
+}
+
+.wherewework .cards .social div:nth-child(4) {
+  border-top: 3px solid #3F72B3;
+}
+
+.wherewework .cards .social div:nth-child(4) i {
+  color: #3F72B3;
+}
+
+.wherewework .cards .social div:nth-child(5) {
+  border-top: 3px solid #8F8F8F;
+}
+
+.wherewework .cards .social div:nth-child(5) i {
+  color: #8F8F8F;
+}
+
+@media (min-width: 910px) {
+  .wherewework {
+    background-color: #F2F2F2;
+  }
+  .wherewework .wherewework_head {
+    padding: 9em 2em;
+  }
+  .wherewework .wherewework_head h1 {
+    font-size: 3em;
+    margin: 0.5em 0;
+  }
+  .wherewework .wherewework_head p {
+    color: #718585;
+  }
+  .wherewework .wherewework_head p a {
+    color: #0180C7;
+  }
+  .wherewework .cards {
+    padding: 0em;
+    width: 97%;
+    margin-top: -150px;
+    margin-left: 4%;
+    z-index: 500;
+    background-color: #fff;
+  }
+  .wherewework .cards .thumb_wrapper .thumb {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .wherewework .cards .thumb_wrapper .thumb h1 {
+    width: 50%;
+    font-size: 2em;
+    margin: 20px;
+  }
+  .wherewework .cards .card_text {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .wherewework .cards .countries {
+    width: 80%;
+    margin: 0 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .wherewework .cards .countries div {
+    width: 30%;
+  }
+  .wherewework .cards .social {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=wherewework.css.map */
