@@ -40,16 +40,16 @@ header {
           justify-content: left;
           align-items: center;
 
-          button {
-            border: none;
-            background-color: #C4000E;
-            box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
-            padding: 10px;
-            margin-right: 20px;
-            color: #fff;
-            font-weight: 700;
-            text-transform: uppercase;
-          }
+            button {
+              border: none;
+              background-color: #C4000E;
+              box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
+              padding: 10px;
+              margin-right: 20px;
+              color: #fff;
+              font-weight: 700;
+              text-transform: uppercase;
+            }
 
           .fa-bars {
             position: absolute;
@@ -297,7 +297,10 @@ header {
             display: block;
             text-align: right;
 
-            button {}
+            button {
+              position: sticky;
+              z-index: 1000;
+            }
 
             .fa-bars {
               display: none;

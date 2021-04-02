@@ -114,12 +114,12 @@
   font-weight: 700;
 }
 
-.whatwedo .cards .card2 .box2 .card {
+.whatwedo .cards .card2 .box2 .box2_card {
   grid-column: span 12;
   margin: 0.5em 0;
 }
 
-.whatwedo .cards .card2 .box2 .card .card_text {
+.whatwedo .cards .card2 .box2 .box2_card .box2_card_text {
   padding: 1em;
   background-color: #fff;
   -webkit-transition: 300ms ease-in;
@@ -127,17 +127,82 @@
   margin: 0;
 }
 
-.whatwedo .cards .card2 .box2 .card .card_text h2 {
+.whatwedo .cards .card2 .box2 .box2_card .box2_card_text h2 {
   color: #007DC6;
   margin: 0.5em 0;
 }
 
-.whatwedo .cards .card2 .box2 .card:hover .card_text {
+.whatwedo .cards .card2 .box2 .box2_card:hover .box2_card_text {
   background-color: #007DC6;
   color: #fff;
 }
 
-.whatwedo .cards .card2 .box2 .card:hover .card_text h2 {
+.whatwedo .cards .card2 .box2 .box2_card:hover .box2_card_text h2 {
   color: #fff;
+}
+
+@media (min-width: 910px) {
+  .whatwedo .whatwedo_head {
+    padding: 9em 2em;
+  }
+  .whatwedo .whatwedo_head h1 {
+    font-size: 3em;
+    margin: 0.5em 0;
+  }
+  .whatwedo .cards {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 97%;
+    margin-top: -150px;
+    margin-left: 4%;
+    z-index: 500;
+    background-color: #fff;
+  }
+  .whatwedo .cards .card1 {
+    width: 25%;
+    margin: 0 auto;
+    padding: 2em 0;
+  }
+  .whatwedo .cards .card2 {
+    width: 70%;
+    padding: 1em;
+    padding-right: 4em;
+  }
+  .whatwedo .cards .card2 .box1 {
+    font-size: 1.7em;
+  }
+  .whatwedo .cards .card2 .box2 h2 {
+    text-align: center;
+  }
+  .whatwedo .cards .card2 .box2 .box2_card {
+    grid-column: span 6;
+    width: 90%;
+    margin: 2em auto;
+    -webkit-box-shadow: 3px 3px 21px rgba(0, 0, 0, 0.3);
+            box-shadow: 3px 3px 21px rgba(0, 0, 0, 0.3);
+  }
+  .whatwedo .cards .card2 .box2 .box2_card .box2_card_text {
+    padding: 1em;
+    background-color: #fff;
+    -webkit-transition: 300ms ease-in;
+    transition: 300ms ease-in;
+    margin: 0;
+  }
+  .whatwedo .cards .card2 .box2 .box2_card .box2_card_text h2 {
+    color: #007DC6;
+    margin: 0.5em 0;
+  }
+  .whatwedo .cards .card2 .box2 .box2_card:hover .box2_card_text {
+    background-color: #007DC6;
+    color: #fff;
+  }
+  .whatwedo .cards .card2 .box2 .box2_card:hover .box2_card_text h2 {
+    color: #fff;
+  }
 }
 /*# sourceMappingURL=whatwedo.css.map */

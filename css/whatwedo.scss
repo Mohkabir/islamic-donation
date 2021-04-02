@@ -82,7 +82,7 @@
           font-size: 1.2em;
           font-weight: 700;
         }
-        .card{
+        .box2_card{
           grid-column: span 12;
           margin: 0.5em 0;
           div{
@@ -90,7 +90,7 @@
             img{
             }
           }
-          .card_text{
+          .box2_card_text{
             padding: 1em;
             background-color: #fff;
             transition: 300ms ease-in;
@@ -104,12 +104,82 @@
             }
           }
           &:hover{
-            .card_text{
+            .box2_card_text{
               background-color:#007DC6 ;
               color: #fff;
               h2{
                 color: #fff;
               
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 910px) {
+  .whatwedo{
+    .whatwedo_head{
+      padding: 9em 2em;
+      h1{
+        font-size: 3em;
+        margin: 0.5em 0;
+      }
+    }
+    .cards{
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 97%;
+      margin-top: -150px;
+      margin-left: 4%;
+      z-index: 500;
+      background-color: #fff;
+      .card1{
+        width: 25%;
+        margin: 0 auto;
+        padding: 2em 0;
+      }
+      .card2{
+        width: 70%;
+        padding: 1em;
+        padding-right: 4em;
+        .box1{  
+          font-size: 1.7em;
+        }
+        .box2{
+   //       padding: 3em 0;
+          h2{
+            text-align: center;
+          }
+          .box2_card{
+            grid-column: span 6;
+            width: 90%;
+            margin: 2em auto;
+            box-shadow: 3px 3px 21px rgba(0, 0, 0,0.3);
+
+            .box2_card_text{
+              padding: 1em;
+              background-color: #fff;
+              transition: 300ms ease-in;
+              margin: 0;
+              h2{
+                color: #007DC6;
+                margin: 0.5em 0;
+              }
+              p{
+  
+              }
+            }
+            &:hover{
+              .box2_card_text{
+                background-color:#007DC6 ;
+                color: #fff;
+                h2{
+                  color: #fff;
+                
+                }
               }
             }
           }

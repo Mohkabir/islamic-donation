@@ -306,6 +306,11 @@ body header .header_img_display .img_container .img_trackers .tracker {
     display: block;
     text-align: right;
   }
+  body header .header_main .navigation .navBar_container .navBar_donateButton button {
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1000;
+  }
   body header .header_main .navigation .navBar_container .navBar_donateButton .fa-bars {
     display: none;
   }
