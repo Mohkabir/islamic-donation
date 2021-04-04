@@ -1,0 +1,136 @@
+.ourcampaigns{
+  .ourcampaigns_head{
+    background-color: #081F3F;
+    color: #Fff;
+    padding: 3em 2em;
+    h1{
+      font-size: 2em;
+      margin: 0.5em 0;
+    }
+    p{
+      color: #718585;
+      a{
+        color: #0180C7;
+      }
+    }
+  }
+  .cards{
+    display: flex;
+    flex-direction: column;
+    .card1{
+      width: 90%;
+      margin: 0 auto;
+      padding: 2em 0;
+      ul{
+        li:nth-child(1){
+          background-color: #F0F0F0;
+        }
+        .space{
+          padding-left: 1.5em;
+        }
+        li{
+          margin: 0.3em 0;
+          text-transform: capitalize;
+          border-bottom: 1px solid #F0F0F0;
+          color: #0180C7;
+          padding: 0.5em;
+          font-size: 1.2em;
+          font-weight: 600;
+          display: flex;
+          align-items: center;
+          a{
+          color: #0180C7;
+          display: inline-block;
+          padding: 0.5em;
+          font-weight: 600;
+          }
+          i{
+            font-size: 15px;
+            color: #BDBDBD;
+            margin-right: 0.3em;
+          }
+        }
+      }
+    }
+    .card2{
+      padding: 1em;
+      .card2_img{
+      }
+      .card2_text{
+        h2,h3,p{
+          margin: 1em 0;
+        }
+        p{
+          a{
+            color:#007FC7 ;
+          }
+        }
+        ul{
+          margin: 0.5em;
+          li::before {
+            content: "\2022";
+            color: #007FC7;
+            font-weight: 600;
+            display: inline-block; 
+            font-size: 35px;
+          }
+          li{
+            font-weight: 600;
+            span{
+              font-weight: 900;
+              font-size: 1.1em;
+            }
+          }
+        }
+        .social{
+          display: flex;
+          flex-wrap: wrap;
+          padding: 2em 0;
+          padding-bottom: 5em;
+          div{
+            margin: 0.5em 0.3em;
+            border-radius: 5px;
+            padding: 4px 8px;
+            border-bottom: 1px solid #DCDCDC;
+            border-left: 1px solid #DCDCDC;
+            border-right: 1px solid #DCDCDC;
+            i{
+              margin-right: 6px;
+            }
+          }
+          div:nth-child(1){
+            border-top: 3px solid #3B59A1;
+            i{
+              color: #3B59A1;
+            }
+          }
+          div:nth-child(2){
+            border-top: 3px solid #1DCAFF;
+            i{
+              color: #1DCAFF;
+            }
+          }
+          div:nth-child(3){
+            border-top: 3px solid #DD4B70;
+            i{
+              color: #DD4B70;
+            }
+          }
+          div:nth-child(4){
+            border-top: 3px solid #3F72B3;
+            i{
+              color: #3F72B3;
+            }
+          }
+          div:nth-child(5){
+            border-top: 3px solid #8F8F8F;
+            i{
+              color: #8F8F8F;
+            }
+          }
+
+        }
+      }
+    }
+  }
+}
