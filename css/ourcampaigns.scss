@@ -22,12 +22,6 @@
       margin: 0 auto;
       padding: 2em 0;
       ul{
-        li:nth-child(1){
-          background-color: #F0F0F0;
-        }
-        .space{
-          padding-left: 1.5em;
-        }
         li{
           margin: 0.3em 0;
           text-transform: capitalize;
@@ -38,6 +32,9 @@
           font-weight: 600;
           display: flex;
           align-items: center;
+          &:hover{
+            background-color: #F0F0F0;
+          }
           a{
           color: #0180C7;
           display: inline-block;
@@ -56,79 +53,131 @@
       padding: 1em;
       .card2_img{
       }
-      .card2_text{
-        h2,h3,p{
+      .box1{
+        border-left: 5px solid #00B0C5;
+        margin: 1em 0;
+        padding-left: 1em;
+      }
+      .box2{
+        padding: 1em 0;
+        p{
           margin: 1em 0;
         }
-        p{
-          a{
-            color:#007FC7 ;
-          }
+        h3{
+          margin-top: 2em;
+          text-decoration: underline;
         }
-        ul{
-          margin: 0.5em;
-          li::before {
-            content: "\2022";
-            color: #007FC7;
-            font-weight: 600;
-            display: inline-block; 
-            font-size: 35px;
-          }
-          li{
-            font-weight: 600;
-            span{
-              font-weight: 900;
-              font-size: 1.1em;
-            }
-          }
+      }
+      .box3{
+        h3{
+          margin: 1em 0;
+          text-decoration: underline;
         }
-        .social{
+        h4{
+          margin: 1em 0;
+        }
+        .subbox{
           display: flex;
-          flex-wrap: wrap;
-          padding: 2em 0;
-          padding-bottom: 5em;
-          div{
-            margin: 0.5em 0.3em;
-            border-radius: 5px;
-            padding: 4px 8px;
-            border-bottom: 1px solid #DCDCDC;
-            border-left: 1px solid #DCDCDC;
-            border-right: 1px solid #DCDCDC;
-            i{
-              margin-right: 6px;
-            }
+          flex-direction: column;
+          margin-top: 1em;
+          p{
+            padding: 1em 0;
           }
-          div:nth-child(1){
-            border-top: 3px solid #3B59A1;
-            i{
-              color: #3B59A1;
-            }
+        }
+      }
+      .social{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2em 0;
+        padding-bottom: 5em;
+        div{
+          margin: 0.5em 0.3em;
+          border-radius: 5px;
+          padding: 4px 8px;
+          border-bottom: 1px solid #DCDCDC;
+          border-left: 1px solid #DCDCDC;
+          border-right: 1px solid #DCDCDC;
+          i{
+            margin-right: 6px;
           }
-          div:nth-child(2){
-            border-top: 3px solid #1DCAFF;
-            i{
-              color: #1DCAFF;
-            }
+        }
+        div:nth-child(1){
+          border-top: 3px solid #3B59A1;
+          i{
+            color: #3B59A1;
           }
-          div:nth-child(3){
-            border-top: 3px solid #DD4B70;
-            i{
-              color: #DD4B70;
-            }
+        }
+        div:nth-child(2){
+          border-top: 3px solid #1DCAFF;
+          i{
+            color: #1DCAFF;
           }
-          div:nth-child(4){
-            border-top: 3px solid #3F72B3;
-            i{
-              color: #3F72B3;
-            }
+        }
+        div:nth-child(3){
+          border-top: 3px solid #DD4B70;
+          i{
+            color: #DD4B70;
           }
-          div:nth-child(5){
-            border-top: 3px solid #8F8F8F;
-            i{
-              color: #8F8F8F;
-            }
+        }
+        div:nth-child(4){
+          border-top: 3px solid #3F72B3;
+          i{
+            color: #3F72B3;
           }
+        }
+        div:nth-child(5){
+          border-top: 3px solid #8F8F8F;
+          i{
+            color: #8F8F8F;
+          }
+        }
 
+      }
+    }
+  }
+}
+
+
+
+@media (min-width: 910px) {
+  .ourcampaigns{
+    .ourcampaigns_head{
+      padding: 9em 2em;
+      h1{
+        font-size: 3em;
+        margin: 0.5em 0;
+      }
+    }
+    .cards{
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 97%;
+      margin-top: -150px;
+      margin-left: 4%;
+      z-index: 500;
+      background-color: #fff;
+      .card1{
+        width: 25%;
+        margin: 0 auto;
+        padding: 2em 0;
+      }
+      .card2{
+        width: 70%;
+        padding: 3em 0;
+        padding-right: 4em;
+        .box3{
+          .subbox{
+            flex-direction: row;
+            margin-bottom: 5em;
+            justify-content: space-between;
+            img{
+              width: 35%;
+            }
+            p{
+              padding: 0;
+              width: 60%;
+            }
+          }
         }
       }
     }
