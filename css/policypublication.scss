@@ -1,0 +1,163 @@
+.policypublication{
+  .policypublication_head{
+    background-color: #081F3F;
+    color: #Fff;
+    padding: 3em 2em;
+    h1{
+      font-size: 2em;
+      margin: 0.5em 0;
+    }
+    p{
+      color: #718585;
+      a{
+        color: #0180C7;
+      }
+    }
+  }
+  .cards{
+    display: flex;
+    flex-direction: column;
+    .card1{
+      width: 90%;
+      margin: 0 auto;
+      padding: 2em 0;
+      ul{
+        li{
+          margin: 0.3em 0;
+          text-transform: capitalize;
+          border-bottom: 1px solid #F0F0F0;
+          color: #0180C7;
+          padding: 0.5em;
+          font-size: 1.2em;
+          font-weight: 600;
+          display: flex;
+          align-items: center;
+          &:hover{
+            background-color: #F0F0F0;
+          }
+          a{
+          color: #0180C7;
+          display: inline-block;
+          padding: 0.5em;
+          font-weight: 600;
+          }
+          i{
+            font-size: 15px;
+            color: #BDBDBD;
+            margin-right: 0.3em;
+          }
+        }
+      }
+    }
+    .card2{
+      padding: 1em;
+      p,h2{
+        margin: 0.5em 0;
+      }
+      div{
+       button{
+         background-color: #12366A;
+         color: #fff;
+         font-weight: 900;
+         font-size: 0.9em;
+         padding: 8px;
+         margin: 0.5em 0;
+         width: 300px;
+         border: none;
+       }
+      }
+
+      .social{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2em 0;
+        padding-bottom: 5em;
+        div{
+          margin: 0.5em 0.3em;
+          border-radius: 5px;
+          padding: 4px 8px;
+          border-bottom: 1px solid #DCDCDC;
+          border-left: 1px solid #DCDCDC;
+          border-right: 1px solid #DCDCDC;
+          i{
+            margin-right: 6px;
+          }
+        }
+        div:nth-child(1){
+          border-top: 3px solid #3B59A1;
+          i{
+            color: #3B59A1;
+          }
+        }
+        div:nth-child(2){
+          border-top: 3px solid #1DCAFF;
+          i{
+            color: #1DCAFF;
+          }
+        }
+        div:nth-child(3){
+          border-top: 3px solid #DD4B70;
+          i{
+            color: #DD4B70;
+          }
+        }
+        div:nth-child(4){
+          border-top: 3px solid #3F72B3;
+          i{
+            color: #3F72B3;
+          }
+        }
+        div:nth-child(5){
+          border-top: 3px solid #8F8F8F;
+          i{
+            color: #8F8F8F;
+          }
+        }
+
+      }
+    }
+  }
+}
+
+
+
+@media (min-width: 910px) {
+  .policypublication{
+    .policypublication_head{
+      padding: 9em 2em;
+      h1{
+        font-size: 3em;
+        margin: 0.5em 0;
+      }
+    }
+    .cards{
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 97%;
+      margin-top: -150px;
+      margin-left: 4%;
+      z-index: 500;
+      background-color: #fff;
+      .card1{
+        width: 25%;
+        margin: 0 auto;
+        padding: 2em 0;
+      }
+      .card2{
+        width: 70%;
+        padding: 3em 0;
+        padding-right: 4em;  
+        .card2_img{
+          img{
+            width: 100%;
+          }
+        }
+        div{
+          img{
+            width: 35%;
+          }
+         }
+      }
+    }
+  }
+}

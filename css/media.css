@@ -1,0 +1,210 @@
+.media .media_head {
+  background-color: #081F3F;
+  color: #Fff;
+  padding: 3em 2em;
+}
+
+.media .media_head h1 {
+  font-size: 2em;
+  margin: 0.5em 0;
+}
+
+.media .media_head p {
+  color: #718585;
+}
+
+.media .media_head p a {
+  color: #0180C7;
+}
+
+.media .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.media .cards .card1 {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+.media .cards .card1 ul li {
+  margin: 0.3em 0;
+  text-transform: capitalize;
+  border-bottom: 1px solid #F0F0F0;
+  color: #0180C7;
+  padding: 0.5em;
+  font-size: 1.2em;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.media .cards .card1 ul li:hover {
+  background-color: #F0F0F0;
+}
+
+.media .cards .card1 ul li a {
+  color: #0180C7;
+  display: inline-block;
+  padding: 0.5em;
+  font-weight: 600;
+}
+
+.media .cards .card1 ul li i {
+  font-size: 15px;
+  color: #BDBDBD;
+  margin-right: 0.3em;
+}
+
+.media .cards .card2 {
+  padding: 1em;
+}
+
+.media .cards .card2 h2 {
+  margin: 1em 0;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #777;
+}
+
+.media .cards .card2 .box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.media .cards .card2 .box2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.media .cards .card2 .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 2em 0;
+  padding-bottom: 5em;
+}
+
+.media .cards .card2 .social div {
+  margin: 0.5em 0.3em;
+  border-radius: 5px;
+  padding: 4px 8px;
+  border-bottom: 1px solid #DCDCDC;
+  border-left: 1px solid #DCDCDC;
+  border-right: 1px solid #DCDCDC;
+}
+
+.media .cards .card2 .social div i {
+  margin-right: 6px;
+}
+
+.media .cards .card2 .social div:nth-child(1) {
+  border-top: 3px solid #3B59A1;
+}
+
+.media .cards .card2 .social div:nth-child(1) i {
+  color: #3B59A1;
+}
+
+.media .cards .card2 .social div:nth-child(2) {
+  border-top: 3px solid #1DCAFF;
+}
+
+.media .cards .card2 .social div:nth-child(2) i {
+  color: #1DCAFF;
+}
+
+.media .cards .card2 .social div:nth-child(3) {
+  border-top: 3px solid #DD4B70;
+}
+
+.media .cards .card2 .social div:nth-child(3) i {
+  color: #DD4B70;
+}
+
+.media .cards .card2 .social div:nth-child(4) {
+  border-top: 3px solid #3F72B3;
+}
+
+.media .cards .card2 .social div:nth-child(4) i {
+  color: #3F72B3;
+}
+
+.media .cards .card2 .social div:nth-child(5) {
+  border-top: 3px solid #8F8F8F;
+}
+
+.media .cards .card2 .social div:nth-child(5) i {
+  color: #8F8F8F;
+}
+
+@media (min-width: 910px) {
+  .media .media_head {
+    padding: 9em 2em;
+  }
+  .media .media_head h1 {
+    font-size: 3em;
+    margin: 0.5em 0;
+  }
+  .media .cards {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 97%;
+    margin-top: -150px;
+    margin-left: 4%;
+    z-index: 500;
+    background-color: #fff;
+  }
+  .media .cards .card1 {
+    width: 25%;
+    margin: 0 auto;
+    padding: 2em 0;
+  }
+  .media .cards .card2 {
+    width: 70%;
+    padding: 3em 0;
+    padding-right: 4em;
+  }
+  .media .cards .card2 .box1 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .media .cards .card2 .box2 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .media .cards .card2 div {
+    margin: 0 1em;
+  }
+}
+/*# sourceMappingURL=media.css.map */
