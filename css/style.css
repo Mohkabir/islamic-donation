@@ -502,6 +502,12 @@ body .section2 .section2_cards .section2_cards_img {
   display: -ms-flexbox;
   display: flex;
   overflow-x: scroll;
+  width: 100%;
+}
+
+body .section2 .section2_cards .section2_cards_img img {
+  width: 400px;
+  margin: 0 0.3em;
 }
 
 body .section2 .section2_cards .controls {

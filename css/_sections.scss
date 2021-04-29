@@ -86,6 +86,11 @@
     .section2_cards_img{
       display: flex;
       overflow-x: scroll;
+      width: 100%;
+      img{
+        width: 400px;
+        margin: 0 0.3em;
+      }
     }
     .controls{
       position: absolute;
