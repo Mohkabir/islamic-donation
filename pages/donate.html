@@ -5,14 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="../css/donate.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <body>
   <header>
     <div class="logo">
-      <img src="../asset/logo.jpg" alt="logo">
+      <a href="../index.html"><img src="../asset/logo.jpg" alt="logo"></a>
       <div class="logo_text">
         <span class="blue">islamic relief</span>
         <span>worldwide</span>
@@ -28,55 +28,35 @@
   <div class="add">
     <span>Wherever Needed Most</span>
     <input type="text">
-    <input type="button" value="Add">
+      <input type="button" value="Add">
+    
   </div>
   <div class="donation_type">
     <div class="type_head">
-      <p><span>Ramadan</span> <i></i></p>
+      <p class="type_head_header"><span>Current Appeals</span> <i class="fas fa-plus"></i></p>
       <ul>
         <li>
-          <span>zakat <i></i></span>
+          <span>Yemen Appeal  <i class="fas fa-info-circle"></i></span>
           <input type="number">
         </li>
         <li>
-          <span>Fidya / Kaffara <i></i></span>
+          <span>Winter Warmth Appeal <i class="fas fa-info-circle"></i></span>
           <input type="number">
         </li>
         <li>
-          <span>Ramadan Food Packs <i></i></span>
+          <span>Coronavirus Appeal <i class="fas fa-info-circle"></i></span>
           <input type="number">
         </li>
         <li>
-          <span>Zakat al-Fitr <i></i></span>
-          <input type="number">
-        </li>
-      </ul>
-    </div>
-    <div class="type_head">
-      <p><span>Current Appeals</span> <i></i></p>
-      <ul>
-        <li>
-          <span>Yemen Appeal  <i></i></span>
+          <span>Syria Crisis Appeal  <i class="fas fa-info-circle"></i></span>
           <input type="number">
         </li>
         <li>
-          <span>Winter Warmth Appeal <i></i></span>
+          <span>Gaza Emergency Appeal <i class="fas fa-info-circle"></i></span>
           <input type="number">
         </li>
         <li>
-          <span>Coronavirus Appeal <i></i></span>
-          <input type="number">
-        </li>
-        <li>
-          <span>Syria Crisis Appeal  <i></i></span>
-          <input type="number">
-        </li>
-        <li>
-          <span>Gaza Emergency Appeal <i></i></span>
-          <input type="number">
-        </li>
-        <li>
-          <span>Global Emergencies <i></i></span>
+          <span>Global Emergencies <i class="fas fa-info-circle"></i></span>
           <input type="number">
         </li>
         <p>
@@ -85,26 +65,26 @@
       </ul>
     </div>
     <div class="type_head">
-      <p><span>General Donations</span> <i></i></p>
+      <p class="type_head_header"><span>General Donations</span> <i class="fas fa-plus"></i></p>
       <ul>
         <li>
-          <span>Wherever Needed Most <i></i></span>
+          <span>Wherever Needed Most <i class="fas fa-info-circle"></i></span>
           <input type="number">
         </li>
         <li>
-          <span>Sadaqah <i></i></span>
+          <span>Sadaqah <i class="fas fa-info-circle"></i></span>
           <input type="number">
         </li>
         <li>
-          <span>Orphans and children <i></i></span>
+          <span>Orphans and children <i class="fas fa-info-circle"></i></span>
           <input type="number">
         </li>
         <li>
-          <span>Water for Life <i></i></span>
+          <span>Water for Life <i class="fas fa-info-circle"></i></span>
           <input type="number">
         </li>
         <li>
-          <span>Sadaqah Jariyah <i></i></span>
+          <span>Sadaqah Jariyah <i class="fas fa-info-circle"></i></span>
           <input type="number">
         </li>
       </ul>
@@ -112,13 +92,13 @@
   </div>
   <div class="total">
     <div>
-      <span>$</span>
-      <span>£</span>
-      <span>€</span>
+      <span>$ <input type="radio" checked></span>
+      <span>£ <input type="radio" disabled></span>
+      <span>€ <input type="radio" disabled></span>
     </div>
-    <div>
+    <div class="box2">
       <span>TOTAL $</span>
-      <span>0</span>
+      <input type="number">
     </div>
   </div>
   <button>Next</button>

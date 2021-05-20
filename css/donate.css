@@ -1,0 +1,152 @@
+img {
+  width: 100%;
+}
+
+body {
+  font-size: 14px;
+  padding: 0 0.5em;
+  margin: 0;
+  color: #606060;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+body header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 50%;
+}
+
+body header .logo .logo_text {
+  font-weight: 600;
+  color: #838587;
+}
+
+body header .logo .blue {
+  color: #0081C3;
+  font-size: 1em;
+}
+
+body header .logo img {
+  width: 80%;
+}
+
+body header h2 {
+  font-size: 0.8em;
+  color: #0090D6;
+  border-left: 1px solid #E1E1E1;
+  padding-left: 1em;
+}
+
+body .donate_img {
+  margin: 1em 0;
+}
+
+body .add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 0.8em;
+  font-weight: 300;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #0090D6;
+}
+
+body .add span {
+  width: 50%;
+}
+
+body .add input[type="text"] {
+  width: 50%;
+  border: 2px solid #EFEFEF;
+  margin: 0 1em;
+}
+
+body .add input[type="button"] {
+  color: #0090D6;
+  border: 1px solid #EFEFEF;
+}
+
+body .donation_type .type_head .type_head_header {
+  background-color: #007BBF;
+  color: #ffffff;
+  margin: 5px 0;
+  padding: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .donation_type .type_head .type_head_header .fa-plus {
+  font-size: 7px;
+}
+
+body .donation_type .type_head ul {
+  list-style-type: none;
+  padding: 0 0.5em;
+  margin: 0;
+  font-size: 0.8em;
+}
+
+body .donation_type .type_head ul LI {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 5px 0;
+}
+
+body .donation_type .type_head ul LI .fa-info-circle {
+  color: #BFBFBF;
+}
+
+body .donation_type .type_head ul LI input {
+  border: 2px solid #EFEFEF;
+  width: 40%;
+}
+
+body .total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #F2F2F2;
+  padding: 8px;
+  font: 0.8em;
+}
+
+body .total .box2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .total .box2 input[type="text"] {
+  border: 2px solid #EFEFEF;
+}
+/*# sourceMappingURL=donate.css.map */

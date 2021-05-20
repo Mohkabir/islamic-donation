@@ -1,0 +1,118 @@
+
+$bluetext: #0090D6;
+
+
+img{
+  width: 100%;
+}
+
+
+body{
+  font-size: 14px;
+  padding: 0 0.5em;
+  margin: 0;
+  color: #606060;
+  header{
+    display: flex;
+    align-items: flex-end;
+  
+    .logo{
+      display: flex;
+      align-items: flex-end;
+      width: 50%;
+      .logo_text{
+        font-weight: 600;
+        color: #838587;
+      }
+      .blue{
+        color: #0081C3;
+        font-size: 1em;
+      }
+      img{
+        width: 80%;
+      }
+    }
+    h2{
+      font-size: 0.8em;
+      color: $bluetext;
+      border-left: 1px solid #E1E1E1;
+      padding-left: 1em;
+    }
+  }
+  .donate_img{
+    margin: 1em 0;
+  }
+  .add{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    font-weight: 300;
+    align-items: center;
+    color: $bluetext;
+    
+    span{
+      width: 50%;
+      
+    }
+    input[type="text"]{
+      width: 50%;
+      border: 2px solid #EFEFEF;
+      margin: 0 1em;
+    }
+    input[type="button"]{
+      color: $bluetext;
+      border: 1px solid #EFEFEF;
+    }
+  }
+
+  .donation_type{
+    .type_head{
+      .type_head_header{
+        background-color: #007BBF;
+        color: #ffffff;
+        margin: 5px 0;
+        padding: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .fa-plus{
+          font-size: 7px;
+        }
+      }
+      ul{
+        list-style-type: none;
+        padding: 0 0.5em;
+        margin: 0;
+        font-size: 0.8em;
+        LI{
+          display: flex;
+          justify-content: space-between;
+          margin: 5px 0;
+          .fa-info-circle{
+            color: #BFBFBF;
+          }
+          input{
+            border: 2px solid #EFEFEF;
+            width: 40%;
+          }
+        }
+      }
+    }
+  }
+  .total{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+    padding: 8px;
+    font: 0.8em;
+    
+    .box2{
+      display: flex;
+      input[type="text"]{
+        border: 2px solid #EFEFEF;
+        // width: 40%;
+      }
+    }
+   
+  }
+}
